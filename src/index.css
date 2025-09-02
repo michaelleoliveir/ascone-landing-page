@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-arimo: 'Arimo', 'sans-serif';
+
+    --color-green: #1c3f3a;
+    --color-green-light: #e0e9e9;
+    --color-beige: #ebe9da;
+    --color-blue: #0a0c29;
+}

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer {
+    a {
+        padding: --spacing(6);
+        font-size: var(--text-base);
+    }
+}
