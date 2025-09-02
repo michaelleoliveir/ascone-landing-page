@@ -17,7 +17,7 @@ const Header = () => {
             {/* login */}
             <div>
                 <a href="#">Login</a>
-                <button className="bg-(--color-green) text-white ml-2 p-2 px-6 rounded-3xl">
+                <button className="bg-(--color-green) text-white ml-2 p-2 px-6 rounded-3xl cursor-pointer">
                     Sign Up
                 </button>
             </div>
