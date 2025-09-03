@@ -5,7 +5,14 @@
     --font-arimo: 'Arimo', 'sans-serif';
 
     --color-green: #1c3f3a;
+    --color-green-hover: #1c3f3a;
     --color-green-light: #e0e9e9;
     --color-beige: #ebe9da;
     --color-blue: #0a0c29;
+}
+
+@layer {
+    button:hover {
+        background-color: #1d5048
+    }
 }

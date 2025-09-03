@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @layer {
-    a {
+    #item {
         padding: --spacing(6);
         font-size: var(--text-base);
     }
