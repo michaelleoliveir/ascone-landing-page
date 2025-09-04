@@ -4,7 +4,8 @@ import { ChevronRight } from "lucide-react"
 
 const Header = () => {
     return (
-        <div className="fixed top-0 left-0 w-full flex flex-row items-center justify-between bg-white p-3 pt-2 px-[8rem] z-50">
+        <div className="fixed top-0 left-0 w-full flex flex-row justify-between bg-white p-1 px-[8rem] z-50">
+
             {/* nav bar */}
             <div className="flex flex-row items-center">
                 <h1 className="mr-[5rem] text-(--color-green) text-3xl font-semibold">Ascone</h1>
@@ -18,14 +19,13 @@ const Header = () => {
 
             {/* login */}
             <div className="flex flex-row items-center">
-                <a className="px-5" href="#">Login</a>
-                <button className="flex flex-row gap-2 bg-(--color-green) text-white ml-2 p-2 px-6 rounded-3xl cursor-pointer">
+                <a href="#">Login</a>
+                <button className="flex flex-row gap-2 bg-(--color-green) text-white ml-8 p-2 px-6 rounded-3xl cursor-pointer">
                     Sign Up
                     <ChevronRight />
                 </button>   
             </div>
         </div>
-
     )
 }
 

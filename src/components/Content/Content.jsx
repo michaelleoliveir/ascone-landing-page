@@ -3,6 +3,7 @@ import details from '../../assets/details.webp'
 export const Content = () => {
     return (
         <section className='flex'>
+
             {/* text */}
             <div className="w-[50%] mt-15">
                 <div className='w-[85%]'>
@@ -14,7 +15,7 @@ export const Content = () => {
             </div>
 
             {/* picture */}
-            <div className="w-[50%] mt-15 flex justify-center">
+            <div className="w-[50%] mt-15 flex">
                 <img src={details} alt="" />
             </div>
         </section>
