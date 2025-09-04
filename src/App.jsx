@@ -1,6 +1,7 @@
 import { AboutUs } from './components/AboutUs/AboutUs'
 import { Content } from './components/Content/Content'
 import Header from './components/Header/Header'
+import { Values } from './components/Values/Values'
 import './index.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Content />
       <AboutUs />
+      <Values />
     </div>
   )
 }
