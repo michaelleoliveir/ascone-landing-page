@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react"
 
 const Header = () => {
     return (
-        <div className="fixed top-0 left-0 w-full flex flex-row items-center justify-between bg-white p-4 pt-2 px-[8rem] z-50">
+        <div className="fixed top-0 left-0 w-full flex flex-row items-center justify-between bg-white p-3 pt-2 px-[8rem] z-50">
             {/* nav bar */}
             <div className="flex flex-row items-center">
                 <h1 className="mr-[5rem] text-(--color-green) text-3xl font-semibold">Ascone</h1>
