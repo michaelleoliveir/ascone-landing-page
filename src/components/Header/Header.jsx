@@ -20,7 +20,7 @@ const Header = () => {
             {/* login */}
             <div className="flex flex-row items-center">
                 <a href="#">Login</a>
-                <button className="flex flex-row gap-2 bg-(--color-green) text-white ml-8 p-2 px-6 rounded-3xl cursor-pointer">
+                <button className="flex flex-row gap-2 text-white ml-8" id="greenButton">
                     Sign Up
                     <ChevronRight />
                 </button>   
