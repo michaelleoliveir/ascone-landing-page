@@ -1,5 +1,6 @@
 import { AboutUs } from './components/AboutUs/AboutUs'
 import { Content } from './components/Content/Content'
+import Faq from './components/FAQ/Faq'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Numbers from './components/Numbers/Numbers'
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <Values />
       <Numbers />
+      <Faq />
       <Footer />
     </div>
   )

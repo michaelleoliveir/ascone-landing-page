@@ -3,6 +3,7 @@ import bg from '../../assets/background.jpg'
 const Numbers = () => {
     return (
         <section className="w-screen relative left-1/2 right-1/2 -mx-[50.5vw] h-[400px] px-36 mt-32 flex flex-row bg-cover bg-center" style={{ backgroundImage: `url(${bg})` }}>
+        
             {/* numbers */}
             <div className="w-[50%] flex flex-row justify-start items-end gap-20 pb-20 text-white">
                 <div>
