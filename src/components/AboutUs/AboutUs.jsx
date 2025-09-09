@@ -2,7 +2,7 @@ import data from '../../assets/data.png'
 
 export const AboutUs = () => {
     return (
-        <div className="mt-32 flex flex-col items-center text-center">
+        <section className="mt-32 flex flex-col items-center text-center">
             <div>
                 <p id='miniTitle'>ABOUT US</p>
                 <h1 className="max-w-2xl" id='title'>One app for all your money things</h1>
@@ -11,6 +11,6 @@ export const AboutUs = () => {
             <div>
                 <img src={data} alt="" className='w-[90%] block m-auto mt-14' />
             </div>
-        </div>
+        </section>
     )
 }
