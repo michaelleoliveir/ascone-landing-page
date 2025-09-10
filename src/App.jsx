@@ -2,6 +2,7 @@ import { AboutUs } from './components/AboutUs/AboutUs'
 import { Content } from './components/Content/Content'
 import Faq from './components/FAQ/Faq'
 import Footer from './components/Footer/Footer'
+import GetStarted from './components/GetStarted/GetStarted'
 import Header from './components/Header/Header'
 import Numbers from './components/Numbers/Numbers'
 import { Values } from './components/Values/Values'
@@ -16,6 +17,7 @@ function App() {
       <Values />
       <Numbers />
       <Faq />
+      <GetStarted />
       <Footer />
     </div>
   )

@@ -34,7 +34,7 @@
         margin-top: calc(var(--spacing) * 8);
     }
 
-    #greenButton { 
+    #greenButton {
         background-color: var(--color-green);
         color: var(--color-white);
         padding: calc(var(--spacing) * 3);
@@ -137,10 +137,11 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+    * {
+        @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
+
+    body {
+        @apply bg-background text-foreground;
     }
 }
