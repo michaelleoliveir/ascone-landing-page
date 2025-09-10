@@ -1,37 +1,13 @@
+import { sectionAccount, sectionCompany, sectionFinance, sectionHelp } from "./footerSections"
 import Sections from "./Sections/Sections"
 
 const Footer = () => {
-    const sectionAccount = [
-        'Saving',
-        'Join Accounts',
-        'Crypto',
-        'Freelance',
-        'Commodities'
-    ];
-
-    const sectionHelp = [
-        'Customer Help',
-        'Community',
-        'Blog'
-    ];
-
-    const sectionFinance = [
-        'Cards',
-        'Linked Accounts',
-        'Payment'
-    ];
-
-    const sectionCompany = [
-        'About Us',
-        'Contact',
-        'Sustainability',
-        'Career'
-    ];
-
     return (
         <footer className="mt-32">
+
             {/* navigation */}
             <div className="h-85 flex flex-row justify-between">
+            
                 {/* sections */}
                 <div className="flex flex-row gap-28">
                     <Sections title={'Account'} links={sectionAccount} />

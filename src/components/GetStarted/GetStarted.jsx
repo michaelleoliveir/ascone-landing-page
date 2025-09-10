@@ -17,6 +17,7 @@ const GetStarted = () => {
             <div className='w-[40%] flex justify-end'>
                 <img src={image} alt="Descrição da imagem" />
             </div>
+            
         </section>
     )
 }

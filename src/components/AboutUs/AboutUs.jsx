@@ -1,6 +1,6 @@
 import data from '../../assets/data.png'
 
-export const AboutUs = () => {
+const AboutUs = () => {
     return (
         <section className="mt-32 flex flex-col items-center text-center">
 
@@ -15,6 +15,9 @@ export const AboutUs = () => {
             <div>
                 <img src={data} alt="" className='w-[90%] block m-auto mt-14' />
             </div>
+            
         </section>
     )
 }
+
+export default AboutUs

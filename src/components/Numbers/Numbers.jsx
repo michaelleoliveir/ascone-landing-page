@@ -31,6 +31,7 @@ const Numbers = () => {
                     </h1>
                 </div>
             </div>
+            
         </section>
     )
 }

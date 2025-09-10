@@ -1,6 +1,6 @@
 import details from '../../assets/details.webp'
 
-export const Content = () => {
+const Content = () => {
     return (
         <section className='flex'>
 
@@ -18,6 +18,9 @@ export const Content = () => {
             <div className="w-[50%] mt-15 flex">
                 <img src={details} alt="" />
             </div>
+
         </section>
     )
 }
+
+export default Content

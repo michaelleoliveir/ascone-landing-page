@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react"
 
 const Header = () => {
     return (
-        <div className="fixed top-0 left-0 w-full flex flex-row justify-between bg-white p-1 px-[8rem] z-50 shadow-md">
+        <header className="fixed top-0 left-0 w-full flex flex-row justify-between bg-white p-1 px-[8rem] z-50 shadow-md">
 
             {/* nav bar */}
             <div className="flex flex-row items-center">
@@ -25,7 +25,7 @@ const Header = () => {
                     <ChevronRight />
                 </button>   
             </div>
-        </div>
+        </header>
     )
 }
 

@@ -20,6 +20,7 @@ const Faq = () => {
                     ))}
                 </Accordion>
             </div>
+            
         </section>
     )
 }
