@@ -1,3 +1,5 @@
+import Cards from "@/components/Cards/Cards"
+
 const Values = () => {
     return (
         <div className="mt-32">
@@ -19,7 +21,7 @@ const Values = () => {
 
             {/* cards */}
             <div>
-
+                <Cards />
             </div>
         </div>
     )
