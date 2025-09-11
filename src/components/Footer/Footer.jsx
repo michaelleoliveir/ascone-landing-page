@@ -1,5 +1,5 @@
 import { sectionAccount, sectionCompany, sectionFinance, sectionHelp } from "./footerSections"
-import Sections from "./Sections/Sections"
+import Sections from "../Sections/Sections"
 
 const Footer = () => {
     return (

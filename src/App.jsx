@@ -1,11 +1,12 @@
-import { AboutUs } from './components/AboutUs/AboutUs'
-import { Content } from './components/Content/Content'
-import Faq from './components/FAQ/Faq'
+import AboutUs from './sections/AboutUs/AboutUs'
+import Content from './sections/Content/Content'
+import Faq from './sections/FAQ/Faq'
 import Footer from './components/Footer/Footer'
-import GetStarted from './components/GetStarted/GetStarted'
+import GetStarted from './sections/GetStarted/GetStarted'
 import Header from './components/Header/Header'
-import Numbers from './components/Numbers/Numbers'
-import { Values } from './components/Values/Values'
+import Numbers from './sections/Numbers/Numbers'
+import Values from './sections/Values/Values'
+
 import './index.css'
 
 function App() {

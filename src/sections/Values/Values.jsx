@@ -1,4 +1,4 @@
-export const Values = () => {
+const Values = () => {
     return (
         <div className="mt-32">
 
@@ -24,3 +24,5 @@ export const Values = () => {
         </div>
     )
 }
+
+export default Values

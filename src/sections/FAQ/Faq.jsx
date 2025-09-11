@@ -1,5 +1,5 @@
 import { Accordion } from "@/components/ui/accordion"
-import AccordionSection from "./Accordion/AccordionSection"
+import AccordionSection from "../../components/Accordion/AccordionSection"
 import { accordionContent } from "./accordionData"
 
 const Faq = () => {

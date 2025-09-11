@@ -23,8 +23,6 @@ const Numbers = () => {
                     <p className="w-[70%] mb-4 text-left">NUMBERS</p>
                 </div>
                 
-
-                {/* título alinhado à direita */}
                 <div className="flex justify-end w-full">
                     <h1 className="w-[70%] text-6xl">
                         Market and build the solutions
