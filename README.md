@@ -1,12 +1,28 @@
-# React + Vite
+# 🚀 Landing Page - Ascone Finance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um exercício prático de **Front-End**, onde recriei a landing page da empresa fictícia **Ascone Finance**, encontrada no [Dribbble](https://dribbble.com/shots/23286378-Ascone-Finance-Landing-Page).  
 
-Currently, two official plugins are available:
+O objetivo foi **dar vida ao protótipo**, transformando o design em uma aplicação funcional e interativa.
+## 🎯 Objetivos do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Praticar a implementação de interfaces modernas a partir de um protótipo.
+- Consolidar habilidades em **React** e **TailwindCSS**.
+- Explorar bibliotecas de animação e UI para criar uma experiência agradável.
+- Desenvolver tanto a versão **desktop** quanto a versão **mobile** (em progresso).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React** → Framework para construção da interface.  
+- **TailwindCSS** → Estilização responsiva e ágil.  
+- **Shadcn/UI** → Componentes reutilizáveis com foco em acessibilidade.  
+- **Framer Motion** → Animações fluidas e modernas.  
+- **Lucide Icons** → Ícones minimalistas e customizáveis.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚧 Status do Projeto
+
+- ✅ Versão **desktop** finalizada.  
+- 🔄 Versão **mobile** em desenvolvimento.  
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer-Motion](https://img.shields.io/badge/Framer--Motion-0055FF?style=for-the-badge&logo=framer&logoColor=fff)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Shadcn](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
