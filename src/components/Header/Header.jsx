@@ -10,10 +10,10 @@ const Header = () => {
             <div className="flex flex-row items-center">
                 <h1 className="mr-[5rem] text-(--color-green) text-3xl font-semibold">Ascone</h1>
                 <div className="flex gap-4">
-                    <a id="item" href="#">Features</a>
-                    <a id="item" href="#">Accounts</a>
-                    <a id="item" href="#">Company</a>
-                    <a id="item" href="#">Insight</a>
+                    <a id="item" className="underline-animation" href="#">Features</a>
+                    <a id="item" className="underline-animation" href="#">Accounts</a>
+                    <a id="item" className="underline-animation" href="#">Company</a>
+                    <a id="item" className="underline-animation" href="#">Insight</a>
                 </div>
             </div>
 

@@ -9,7 +9,9 @@ const GetStarted = () => {
                 <div className='w-[80%]'>
                     <h1 className='text-7xl font-semibold text-white'>Change the way you use your <i>money</i></h1>
                     <p className="w-[60%] text-gray-300 text-xl my-8 font-light">Join over a million people who choose Ascone for fast and secure future banking</p>
-                    <button className="bg-white text-(--color-green) font-medium py-4 px-8 rounded-full mt-4">Get Started Now</button>
+                    <button className="bg-white text-(--color-green) font-medium py-4 px-8 rounded-full mt-4 cursor-pointer hover:bg-gray-100">
+                        <a href="#">Get Started Now</a>
+                    </button>
                 </div>
             </div>
 
