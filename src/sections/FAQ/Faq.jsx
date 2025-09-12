@@ -7,7 +7,7 @@ const Faq = () => {
         <section className="flex flex-row mt-32">
 
             {/* text */}
-            <header className="w-[40%]">
+            <header className="w-[50%]">
                 <p id="miniTitle">FAQ</p>
                 <h1 id="title">Frequently asked questions</h1>
             </header>
