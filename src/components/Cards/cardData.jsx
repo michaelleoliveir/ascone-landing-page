@@ -12,7 +12,7 @@ export const cardData = [
         icon: <SendToBack size={45} />
     },
     {
-        title: "Private Credit Investments",
+        title: "Credit Investments",
         description: "We provide access to unique private credit investments; a rare but valuable part of a sound investment portfolio.",
         icon: <Target size={45} />
     },

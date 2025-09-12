@@ -40,14 +40,14 @@ const Cards = () => {
                     onClick={() => handleCardClick(index)}
                 >
                     <div className="flex flex-col h-full">
-                        <div className="flex flex-col justify-center h-full px-4 w-[80%] mx-auto">
-                            <div className='mb-13'>
+                        <div className="flex flex-col justify-center h-full w-[80%] mx-auto">
+                            <div className='mb-5'>
                                 {cloneElement(card.icon, {
                                     color: index === expandedIndex ? '#022f30' : 'black',
                                     size: 52,
                                 })}
                             </div>
-                            <h1 className={`text-2xl font-semibold py-4 text-left ${index === expandedIndex ? 'text-(--color-green)' : 'text-black'}`}>
+                            <h1 className={`text-2xl font-semibold py-4 pt-10 text-left ${index === expandedIndex ? 'text-(--color-green)' : 'text-black'}`}>
                                 {card.title}
                             </h1>
                             <p className={`text-left text-xl w-full ${index === expandedIndex ? 'text-(--color-green)' : 'text-gray-500'}`}>

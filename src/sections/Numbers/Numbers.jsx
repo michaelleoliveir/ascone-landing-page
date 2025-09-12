@@ -2,10 +2,10 @@ import bg from '../../assets/background.jpg'
 
 const Numbers = () => {
     return (
-        <section className="w-screen relative left-1/2 right-1/2 -mx-[50.5vw] h-[400px] px-36 mt-32 flex flex-row bg-cover bg-center" style={{ backgroundImage: `url(${bg})` }}>
+        <section className="h-[400px] mt-32 flex flex-row bg-cover bg-center" style={{ backgroundImage: `url(${bg})` }}>
         
             {/* numbers */}
-            <div className="w-[50%] flex flex-row justify-start items-end gap-20 pb-20 text-white">
+            <div className="w-[50%] flex flex-row justify-center items-center gap-20 text-white">
                 <div>
                     <h1 className="text-8xl">$14B</h1>
                     <p className='text-xl mt-8'>Funds and syndicates</p>
@@ -17,14 +17,14 @@ const Numbers = () => {
             </div>
 
             {/* title */}
-            <div className="w-[50%] flex flex-col justify-center text-white">
+            <div className="w-[50%] mt-[-80px] flex flex-col justify-center text-white">
                 {/* NUMBERS à esquerda */}
                 <div className="flex justify-end w-full">
-                    <p className="w-[70%] mb-4 text-left">NUMBERS</p>
+                    <p className="w-[80%] mb-4 text-left">NUMBERS</p>
                 </div>
                 
                 <div className="flex justify-end w-full">
-                    <h1 className="w-[70%] text-6xl">
+                    <h1 className="w-[80%] text-6xl">
                         Market and build the solutions
                     </h1>
                 </div>

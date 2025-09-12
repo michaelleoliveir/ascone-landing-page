@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="h-85 flex flex-row justify-between">
             
                 {/* sections */}
-                <div className="flex flex-row gap-28">
+                <div className="flex flex-row">
                     <Sections title={'Account'} links={sectionAccount} />
                     <Sections title={'Help'} links={sectionHelp} />
                     <Sections title={'Finance'} links={sectionFinance} />
